@@ -199,6 +199,7 @@ header::before{
 }
 .section1{
     background-color: #F8F9FA;
+    padding-bottom: 50px;
 }
 .servicesection1{
     display: flex;
@@ -352,4 +353,128 @@ header::before{
 }
 .iconmenu span:hover{
     color: #1BC5AD;
+}
+.section2{
+    padding-top:50px ;
+    padding-bottom: 100px;
+}
+.productheading{
+    text-align: center;
+}
+.popularproducts h2{
+    font-size: 30px;
+    color: #30E3CA;
+    font-weight: 500;
+}
+.popularproducts p{
+    margin-top: -20px;
+    color: rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+.popularproducts .befor::before {
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 3px;
+    background-color: rgb(48, 227, 202);
+    top: 35px;
+    left: 530px;
+}
+.productimg img{
+    width: 100%;
+    height: 100%;
+    transition: 0.3s;
+    border-radius: 10px;
+}
+.productimg{
+    width: 350px;
+    height: 300px;
+    overflow: hidden;
+    
+}
+.productlist{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-top: 50px;
+}
+.product1{
+    position: relative;
+    
+}
+.product1:hover img{
+    transform: scale(1.05);
+    
+}
+.product1::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index:1 ;
+}
+.productflex{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    bottom: 10px;
+    z-index:2 ;
+    
+}
+.producttextarea{
+    padding-left: 20px;
+}
+.border{
+    color: #fff;
+    font-size: 14px;
+    padding:5px 10px ;
+    background-color: #30E3CA;
+    width:90px ;
+    border-radius:50px ;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.producttextarea a{
+    text-decoration: none;
+    color: #fff;
+}
+.producttextarea h4 {
+    font-size: 20px;
+    margin: 0;
+    font-weight: 400;
+    width: 250px;
+}
+.producttextarea p{
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: 10px;
+}
+.loveicon i {
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+    margin-top: 50px;
+    padding: 12px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+}
+.loveicon i:hover{
+    background-color: #F23A2E;
+}
+.product-link {
+    display: flex;
+    flex-direction: column;
+}
+.productimg2{
+    width: 540px;
+    height: 460px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.productimg2 img{
+    width: 100%;
+    height: 100%;
+    transition: 0.3s;
+}
+.loveicon1{
+    margin-left: 170px;
 }
