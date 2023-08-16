@@ -480,7 +480,9 @@ header::before{
 }
 .section3{
     background-color: #F8F9FA;
+    padding-bottom: 80px;
 }
+
 .trendingheading h2{
     color: #30E3CD;
     font-size: 30px;
@@ -572,4 +574,67 @@ header::before{
 .treding-icon-love i:hover{
     background-color: #F23A2E;
     color: #fff;
+}
+.section4{
+    padding: 5em 0;
+}
+.testimonials h3{
+    text-align: center;
+    margin-top: 0;
+    font-size: 35px;
+    color: #30E3CA;
+    font-weight: 500;
+    margin-bottom: 0;
+    position: relative;
+}
+.testimonials h3::before {
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 3px;
+    background-color: rgb(48, 227, 202);
+    top: 55px;
+    left: 530px;
+}
+.testimonialimg{
+    text-align: center;
+    margin-top: 50px;
+}
+.testimonialimg img{
+    max-width: 100px;
+    border-radius: 50%;
+    
+}
+.testimonialimg p{
+    margin-top: 7px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.7);
+    margin-left: 10px;
+}
+.testtextarea p{
+    font-size: 25px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.6);
+    max-width: 770px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding-bottom: 70px;
+}
+.testicons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -210px;
+}
+.testicons span{
+    font-size: 30px;
+    padding:10px ;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+    color: #fff;
+}
+.testicons span:hover{
+    background-color: #000000;
+    color: #0fe9cc;
 }
