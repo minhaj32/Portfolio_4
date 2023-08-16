@@ -478,3 +478,98 @@ header::before{
 .loveicon1{
     margin-left: 170px;
 }
+.section3{
+    background-color: #F8F9FA;
+}
+.trendingheading h2{
+    color: #30E3CD;
+    font-size: 30px;
+    font-weight: 500;
+    padding-top: 60px;
+    position: relative;
+}
+.trendingheading h2::before{
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 3px;
+    background-color: #30E3CD;
+    top: 105px;
+}
+.trendingsection{
+    padding-top:30px ;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.trending1{
+    width: 540px;
+    height: 185px;
+    display: flex;
+    background-color: #FFFFFF;
+    border-radius:7px;
+    
+}
+.trendingimg img{
+    width: 230px;
+    height: 100%;
+    border-radius: 7px 0 0 7px;
+}
+.trendingtextarea a{
+    text-decoration: none;
+    color: #000000;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 14px;
+    background-color: #E9ECEF;
+}
+.trendingmanagment{
+    display: flex;
+    padding: 30px;
+}
+.trendingtextarea h4 a{
+    padding: 0;
+    background-color: transparent;
+    color: #19cfb7;
+    font-size:17px ;
+    font-weight: 400;
+    
+    
+}
+.trendingtextarea h4 a:hover{
+    color: #119281;
+}
+.trendingtextarea h4{
+    margin-bottom: 0;
+    width: 205px;
+}
+.trendingtextarea P{
+    font-size:14px ;
+    color: rgba(0, 0, 0, 0.7);
+    margin-top: 7px;
+    margin-bottom: 0;
+}
+.treviews{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 15px;
+}
+.ticons i{
+    font-size: 15px;
+    color: #F89D13;
+}
+.treviews p{
+    margin-top: 15px;
+}
+.treding-icon-love i{
+    margin-left: 20px;
+    padding:10px;
+    background-color:#E9ECEF ;
+    border-radius: 50%;
+    color: #0fe9cc;
+}
+.treding-icon-love i:hover{
+    background-color: #F23A2E;
+    color: #fff;
+}
