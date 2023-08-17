@@ -358,27 +358,29 @@ header::before{
     padding-top:50px ;
     padding-bottom: 100px;
 }
-.productheading{
+.text-center {
     text-align: center;
 }
-.popularproducts h2{
+.section-title-describe h2{
     font-size: 30px;
     color: #30E3CA;
     font-weight: 500;
+    text-align: center;
+    margin-bottom: 5px;
 }
-.popularproducts p{
+.section-title-describe p{
     margin-top: -20px;
     color: rgba(0, 0, 0, 0.5);
     position: relative;
 }
-.popularproducts .befor::before {
-    content: "";
-    position: absolute;
+.section-title-describe .befor {
+    margin: 0 auto;
     width: 80px;
     height: 3px;
     background-color: rgb(48, 227, 202);
-    top: 35px;
-    left: 530px;
+}
+.popularproducts > .befor {
+    margin: 0;
 }
 .productimg img{
     width: 100%;
@@ -481,22 +483,7 @@ header::before{
 .section3{
     background-color: #F8F9FA;
     padding-bottom: 80px;
-}
-
-.trendingheading h2{
-    color: #30E3CD;
-    font-size: 30px;
-    font-weight: 500;
-    padding-top: 60px;
-    position: relative;
-}
-.trendingheading h2::before{
-    content: "";
-    position: absolute;
-    width: 80px;
-    height: 3px;
-    background-color: #30E3CD;
-    top: 105px;
+    padding-top: 50px;
 }
 .trendingsection{
     padding-top:30px ;
@@ -511,6 +498,13 @@ header::before{
     background-color: #FFFFFF;
     border-radius:7px;
     
+}
+.section3 .section-title-describe h2 {
+    margin-bottom: 5px;
+    text-align: left;
+}
+.section3 .section-title-describe .befor {
+    margin: 0;
 }
 .trendingimg img{
     width: 230px;
@@ -535,8 +529,6 @@ header::before{
     color: #19cfb7;
     font-size:17px ;
     font-weight: 400;
-    
-    
 }
 .trendingtextarea h4 a:hover{
     color: #119281;
@@ -576,25 +568,8 @@ header::before{
     color: #fff;
 }
 .section4{
-    padding: 5em 0;
-}
-.testimonials h3{
-    text-align: center;
-    margin-top: 0;
-    font-size: 35px;
-    color: #30E3CA;
-    font-weight: 500;
-    margin-bottom: 0;
-    position: relative;
-}
-.testimonials h3::before {
-    content: "";
-    position: absolute;
-    width: 80px;
-    height: 3px;
-    background-color: rgb(48, 227, 202);
-    top: 55px;
-    left: 530px;
+    padding-top: 5em;
+    padding-bottom: 13em;
 }
 .testimonialimg{
     text-align: center;
@@ -619,7 +594,7 @@ header::before{
     text-align: center;
     margin: 0 auto;
     margin-top: 40px;
-    padding-bottom: 70px;
+    padding-bottom: 50px;
 }
 .testicons {
     display: flex;
@@ -637,4 +612,54 @@ header::before{
 .testicons span:hover{
     background-color: #000000;
     color: #0fe9cc;
+}
+.section5{
+    background-color:#F8F9FA ;
+    padding: 50px 0;
+}
+.section-title-describe p{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: center;
+}
+.bloglist{
+    padding-top: 50px;
+    gap: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.blogs1{
+    width:33%;
+    background-color: #F8F9FA;
+}
+.blogsimg img{
+    max-width:100% ;
+    border-radius: 7px;
+}
+.blogareatext h3{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.blogareatext h6{
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    word-spacing: 2px;
+    color: rgba(0, 0, 0, 0.4);
+}
+.blogareatext h6 a{
+    text-decoration: none;
+    margin-left: 8px;
+    color: #0fe9cc;
+}
+.blogareatext h6 a:hover{
+    color: #119281;
+}
+.blogareatext P{
+    font-size: 18px;
+    font-weight: 200;
+    margin-top: 0;
 }
