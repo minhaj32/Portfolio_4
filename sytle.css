@@ -945,3 +945,140 @@ footer{
 #page-1 .section3{
     padding: 100px 0;
 }
+
+
+/* Ads page-1 End */
+
+
+/* About page-2 Star */
+
+
+#page-2 header{
+    height: 55vh;
+    background-image: url(./img/ads-bg.webp);
+}
+.section-about-1{
+    padding: 50px 0;
+}
+.st1-tect-area{
+    display: flex;
+    padding-left: 400px;
+    margin-bottom: 50px;
+}
+.st1-sub-text-1{
+    width:310px;
+    padding: 0 20px;
+}
+.st1-sub-text-1 p{
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.7);
+}
+.outteam{
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.otheading{
+    font-size: 30px;
+    font-weight: 600;
+    color: #0edabe;
+    position: relative;
+    margin-bottom: 50px;
+}
+.otheading::before{
+    content: "";
+    width:80px ;
+    height: 3px;
+    position: absolute;
+    background-color: #30E3CA;
+    top: 50px;
+}
+.outteammain{
+    display: flex;
+    width:100% ;
+    gap:40px ;
+}
+.otmembers{
+    width:260px ;
+    height:500px ;
+    padding-top: 20px;
+}
+.otmembers img{
+    width: 100%;
+}
+.otmembers h4{
+    font-size:28px ;
+    font-weight:300 ;
+    margin: 10px 0;
+    color: rgba(0, 0, 0, 0.8);
+}
+.otmembers h6{
+    margin: 10px 0;
+    font-size:14px ;
+    text-transform: uppercase;
+    font-weight:500 ;
+    color: #06dabd;
+}
+.otmembers p{
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 18px;
+    font-weight: 400;
+}
+.section-about-2{
+    padding:50px 0 ;
+}
+.whyussection{
+    width: 100%;
+    display: flex;
+    padding-bottom: 50px;
+}
+.wsimg{
+    width: 50%;
+}
+.wsimg img{
+    width:100%;
+    border-radius: 5px;
+}
+.wstextarea{
+    margin-left: 110px;
+    width: 50%;
+}
+.wstextarea h2{
+    font-size:32px ;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 10px;
+    color:#0edabe ;
+}
+.wstextarea p{
+    color: rgba(0, 0, 0, 0.7);
+}
+.wstextarea ul{
+    padding-left: 0;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.wstextarea ul li{
+    list-style: none;
+    color:rgba(0, 0, 0, 0.8) ;
+    font-size: 18px;
+    line-height: 35px;
+    width: 90%;
+}
+.wstextarea ul i{
+    color:#0edabe ;
+    padding: 0 15px;
+    padding-left: 0;
+}
+.wstta1{
+    margin-left: 0;
+    width:40% ;
+}
+.wsimg1{
+    margin-left: 100px;
+    width: 48%;
+}
+.whyussection1{
+    padding-top: 100px;
+}
