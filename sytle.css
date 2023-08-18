@@ -1084,7 +1084,74 @@ footer{
 }
 /* About page-2 End */
 
+/* Blog page-3 Star */
+
 #page-3 header{
         height: 55vh;
         background-image: url(./img/ads-bg.webp);
+}
+.blog-section-1{
+    padding-top: 80px;
+    padding-bottom: 120px;
+    
+}
+.sellingmain{
+    width:70% ;
+    display: flex;
+    flex-wrap: wrap;
+    gap:30px ;
+    margin-right: 0;
+}
+.blogst{
+   width: 45%;
+}
+.blog-st1-search-area{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+}
+.blog-st1-search-area h4{
+    font-size: 25px;
+    font-weight: 300;
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+
+.blog-st1-flex{
+    display: flex;
+    
+}
+.blog-searchbox {
+    padding-bottom: 40px;
+}
+
+.blog-searchbox input{
+    padding: 10px 70px;
+    padding-left: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    outline: none;
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+.blog-searchbox input::placeholder{
+    font-weight: 200;
+    color: rgba(0, 0, 0, 0.4);
+}
+.blog-popular-posts{
+    padding-bottom: 40px;
+}
+.blog-st1-search-area a{
+    text-decoration: none;
+    color: #06dabd;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 35px;
+}
+.blog-st1-search-area span{
+    font-size: 18px;
+}
+.blog-st1-search-area a:hover{
+    color: #119281;
 }
