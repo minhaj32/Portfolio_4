@@ -1155,3 +1155,11 @@ footer{
 .blog-st1-search-area a:hover{
     color: #119281;
 }
+ /* Blog page-3 End */
+
+ /* Contact page- Star */
+
+ #page-4 header{
+    height: 55vh;
+    background-image: url(./img/ads-bg.webp);
+}
