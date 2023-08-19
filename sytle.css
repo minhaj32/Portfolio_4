@@ -1416,3 +1416,6 @@ footer{
     height: 55vh;
     background-image: url(./img/ads-bg.webp);
 }
+#page-6 .loginpage{
+    padding: 100px 0;
+}
