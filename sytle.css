@@ -76,6 +76,17 @@ header::before{
 .navber li a:hover{
     color: #30E3CA;
 }
+.dropdown{
+    position: relative;
+}
+.dropdown::before {
+    position: absolute;
+    content: "\f107";
+    font-family: "FontAwesome";
+    font-size: 12px;
+    right: -15px;
+    bottom: 32px;
+}
 .hover-1{
     position: relative;
 }
@@ -350,12 +361,13 @@ header::before{
     padding-top: 50px;
     padding-left: 20px;
 }
-.iconmenu span{
+.iconmenu span {
     font-size: 30px;
     color: rgba(0, 0, 0, 0.6);
     font-weight: bold;
-    padding:0 20px ;
+    padding: 0 20px;
     transition: 0.3s;
+    cursor: pointer;
 }
 .iconmenu span:hover{
     color: #1BC5AD;
@@ -1044,12 +1056,14 @@ footer{
     margin-left: 110px;
     width: 50%;
 }
-.wstextarea h2{
-    font-size:32px ;
+.wstextarea h2 {
+    font-size: 32px;
     font-weight: 400;
     margin-top: 0;
-    margin-bottom: 10px;
-    color:#0edabe ;
+    margin-bottom: 30px;
+    color: #0edabe;
+    line-height: 0;
+    
 }
 .wstextarea p{
     color: rgba(0, 0, 0, 0.7);
