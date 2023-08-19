@@ -815,9 +815,12 @@ footer{
 .frsubicons a i:hover{
     color: #fff;
 }
+.frinputarea{
+    display: flex;
+    align-items: center;
+}
 .frinputarea input{
     padding: 10px 15px;
-    padding-left: 0;
     outline: none;
     background:none;
     border: 1px solid rgba(252, 251, 251, 0.4);
@@ -828,15 +831,14 @@ footer{
 .frinputarea input::placeholder{
     font-size: 17px;
 }
-.frinputarea a button{
-    padding: 11px 12px;
+.frinputarea a button {
+    padding: 11.5px 12px;
     font-size: 17px;
-    color:#fff ;
+    color: #fff;
     background-color: #0fe9cc;
     border: none;
     cursor: pointer;
     margin-left: -6px;
-    
 }
 .frinputarea a button:hover{
     background-color: #1CD1B7;
