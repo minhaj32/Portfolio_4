@@ -1165,7 +1165,7 @@ footer{
 }
 .contact-section-1{
     background-color: #F8F9FA;
-    padding: 70px 0;
+    padding: 100px 0;
    
 }
 .contact-flex{
@@ -1296,4 +1296,54 @@ footer{
 }
 .contact-more-info button:hover{
     background-color: #1CD1B7;
+}
+.contact-section-2{
+    padding: 50px 0;
+}
+.ct-withe{
+    width: 70%;
+    margin: 0 auto;
+}
+.ct-frequentlyheading{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.ct-frequentlyheading h2{
+    font-size: 32px;
+    font-weight: 400;
+    color: #06dabd;
+    margin-bottom: 0px;
+    position: relative;
+}
+.ct-frequentlyheading h2::before {
+    content: "";
+    width: 80px;
+    height: 3px;
+    position: absolute;
+    background-color: rgb(14, 218, 190);
+    top: 100px;
+    left: 360px;
+}
+.ct-list-my-uten{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+.ct-list-my-uten h4{
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0;
+    color: #06dabd;
+}
+.ct-list-my-uten p{
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 0;
+}
+.ct-border h4{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 15px 0;
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 20px;
+    color: rgba(0, 0, 0, 0.6);
 }
