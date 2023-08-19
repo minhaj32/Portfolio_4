@@ -1163,3 +1163,137 @@ footer{
     height: 55vh;
     background-image: url(./img/ads-bg.webp);
 }
+.contact-section-1{
+    background-color: #F8F9FA;
+    padding: 70px 0;
+   
+}
+.contact-flex{
+    display: flex;
+    gap: 50px;
+    
+}
+.contact-form-area{
+    width: 57%;
+    background-color: #fff;
+    padding:3rem;
+}
+.contact-address-area{
+    width: 38%;
+}
+.ct-fa-name{
+    display: flex;
+    gap: 30px;
+}
+.ct-fa-name1{
+    width: 45%;
+}
+.ct-fa-name2{
+    width: 45%;
+}
+.ct-fa-name input{
+    padding:10px 0;
+    width: 100%;
+    padding-left: 10px;
+}
+.contact-form-area input{
+    outline: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    color: rgba(0, 0, 0, 0.7);
+}
+.contact-form-area label{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.8);
+    padding: 0 50px;
+    padding-left: 0;
+}
+.contact-form-area input:focus{
+    border-color: #0fe9cc;
+}
+.ct-fa-email input{
+    padding: 10px 0;
+    width:97% ;
+}
+.ct-fa-subject input{
+    padding: 10px 0;
+    width:97% ;
+}
+.ct-fa-message textarea{
+    width:97% ;
+    margin-top: 10px;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    font-size: 15px;
+}
+.ct-fa-message textarea:focus{
+    border-color: #0fe9cc;
+}
+.contact-form-area button{
+    padding:10px 20px ;
+    background-color: #06dabd;
+    border: none;
+    margin-top: 20px;
+}
+.contact-form-area button a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 200;
+    color: #fff;
+}
+.contact-form-area button:hover{
+    background-color: #1CD1B7;
+}
+.contact-address-box{
+    background-color: #fff;
+    padding: 20px;
+}
+.contact-address-box h4{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size:20px ;
+    font-weight: 400;
+}
+.contact-address-box  p{
+    margin-top: 8px;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 17px;
+}
+.contact-address-box a{
+    text-decoration: none;
+    color: #06dabd;
+    font-size: 18px;
+    
+}
+.contact-more-info{
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 30px;
+}
+.contact-more-info h4{
+    font-size: 25px;
+    font-weight: 400;
+    margin: 0;
+    color: rgba(0, 0, 0, 0.8);
+}
+.contact-more-info p{
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 18px;
+}
+.contact-more-info button{
+    padding: 10px 20px;
+    background-color: #06dabd;
+    border: none;
+    margin-top: 10px;
+}
+.contact-more-info button a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 200;
+    color: #fff;
+}
+.contact-more-info button:hover{
+    background-color: #1CD1B7;
+}
