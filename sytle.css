@@ -1407,3 +1407,12 @@ footer{
     color: #fff;
    
 }
+
+/* Login page End */
+
+/* Register page Star */
+
+#page-6 header{
+    height: 55vh;
+    background-image: url(./img/ads-bg.webp);
+}
