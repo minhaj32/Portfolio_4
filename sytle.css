@@ -1347,3 +1347,63 @@ footer{
     padding-left: 20px;
     color: rgba(0, 0, 0, 0.6);
 }
+
+/* Cotnact page-4 End */
+
+/* Login page-5 Star */
+
+#page-5 header{
+    height: 55vh;
+    background-image: url(./img/ads-bg.webp);
+}
+.loginpage{
+    background-color: #F8F9FA;
+    padding: 50px 0;
+}
+.loginform{
+    width:50% ;
+    margin: 0 auto;
+    background-color: #fff;
+    padding:50px ;
+    padding-bottom: 70px;
+}
+.loginform label{
+    font-size: 20px;
+    font-weight: 300;
+    
+}
+.loginform input{
+    padding: 10px 0;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    outline: none;
+    padding-left: 10px;
+    color: rgba(0, 0, 0, 0.6);
+}
+.loginform input:focus{
+    border-color: #06dabd;
+}
+.loginform p{
+    margin-top: 0;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.7);
+}
+.loginform p a{
+    text-decoration: none;
+    color: #0edabe;
+}
+.loginform button{
+    padding: 10px 20px;
+    background-color: #0edabe;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+}
+.loginform button a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+   
+}
