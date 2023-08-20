@@ -233,6 +233,7 @@ header::before{
     position: relative;
     top: -50px;
     z-index: 9;
+    flex-wrap: wrap;
 }
 
 .service1{
