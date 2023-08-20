@@ -619,11 +619,10 @@ header::before{
     font-size: 25px;
     font-weight: 400;
     color: rgba(0, 0, 0, 0.6);
-    max-width: 770px;
+    padding: 0 139px;
     text-align: center;
-    margin: 0 auto;
     margin-top: 40px;
-    padding-bottom: 50px;
+    
 }
 .testicons {
     display: flex;
