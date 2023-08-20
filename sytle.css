@@ -518,8 +518,7 @@ header::before{
     gap: 30px;
 }
 .trending1{
-    width: 540px;
-    height: 185px;
+    width: 48%;
     display: flex;
     background-color: #FFFFFF;
     border-radius:7px;
@@ -533,7 +532,7 @@ header::before{
     margin: 0;
 }
 .trendingimg img{
-    width: 230px;
+    width: 280px;
     height: 100%;
     border-radius: 7px 0 0 7px;
 }
@@ -548,6 +547,7 @@ header::before{
 .trendingmanagment{
     display: flex;
     padding: 30px;
+    flex-wrap: wrap;
 }
 .trendingtextarea h4 a{
     padding: 0;
@@ -561,7 +561,7 @@ header::before{
 }
 .trendingtextarea h4{
     margin-bottom: 0;
-    width: 205px;
+    
 }
 .trendingtextarea P{
     font-size:14px ;
@@ -583,7 +583,6 @@ header::before{
     margin-top: 15px;
 }
 .treding-icon-love i{
-    margin-left: 20px;
     padding:10px;
     background-color:#E9ECEF ;
     border-radius: 50%;
@@ -1460,5 +1459,10 @@ footer{
     .card1{
         width: 47%;
     }
-    
+    .productimg2{
+        width: 100%;
+    }
+    .trending1{
+        width: 100%;
+    }
 }
