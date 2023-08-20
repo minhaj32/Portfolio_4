@@ -656,13 +656,14 @@ header::before{
 }
 .bloglist{
     padding-top: 50px;
-    gap: 30px;
+    gap: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .blogs1{
-    width:33%;
+    width:32%;
     background-color: #F8F9FA;
 }
 .blogsimg img{
@@ -1466,6 +1467,9 @@ footer{
         width: 100%;
     }
     .trending1{
+        width: 100%;
+    }
+    .blogs1{
         width: 100%;
     }
 }
