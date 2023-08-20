@@ -14,8 +14,9 @@ header {
     background-position: 50% -25px;
     position: relative;
     z-index: 1;
-  
+    
 }
+
 header::before{
     position: absolute;
     content: "";
@@ -30,6 +31,10 @@ header::before{
     width: 1145px;
     margin: 0 auto;
     
+}
+.padding-lr{
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 /* Headersection Star */
@@ -54,14 +59,15 @@ header::before{
 .logo span{
     color: #30E3CA;
 }
-.navber{
+.navber {
     display: flex;
-   align-items: center;
-  
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .navber ul{
     display: flex;
-    
+    flex-wrap: wrap;
 }
 .navber ul li{
     list-style: none;
@@ -185,6 +191,7 @@ header::before{
     align-items:center ;
     justify-content: space-between;
     gap: 30px;
+    flex-wrap: wrap;
 }
 .same1{
     padding:13px 20px ;
@@ -1434,4 +1441,18 @@ footer{
 }
 #page-6 .loginpage{
     padding: 100px 0;
+}
+
+/* Mobail Responsive */
+
+@media (max-width:768px){
+    .contener{
+        width: 100%;
+    }
+    .textarea1 h1 {
+        font-size: 35px;
+    }
+    .textarea1 p{
+        font-size: 18px;
+    }
 }
