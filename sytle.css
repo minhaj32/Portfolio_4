@@ -9,12 +9,12 @@ body{
 
 header {
     background-image: url(./img/bg1.jpg.webp);
-    height: 100vh;
+    height:  auto;
     background-repeat: no-repeat;
     background-position: 50% -25px;
     position: relative;
     z-index: 1;
-    
+    padding-bottom: 250px;
 }
 
 header::before{
@@ -184,7 +184,7 @@ header::before{
     background-color: rgba(255, 255, 255, 0.3);
     padding: 20px;
     border-radius: 5px;
-    margin-top: 40px;
+    margin-top: 50px;
 }
 .inputarea1{
     display: flex;
@@ -226,7 +226,7 @@ header::before{
 }
 .servicesection1{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: start;
     background-color: #FFFFFF;
     border-radius: 7px;
@@ -239,7 +239,7 @@ header::before{
 .service1{
     text-align: center;
     padding:30px 10px ;
-    width: 185px;
+    width: 170px;
     border-radius: 7px;
     position: relative;
     z-index: 9;
@@ -1455,5 +1455,8 @@ footer{
     }
     .textarea1 p{
         font-size: 18px;
+    }
+    .card1{
+        width: 47%;
     }
 }
