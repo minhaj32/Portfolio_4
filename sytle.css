@@ -994,11 +994,11 @@ footer{
 }
 .st1-tect-area{
     display: flex;
-    padding-left: 400px;
     margin-bottom: 50px;
+    
 }
 .st1-sub-text-1{
-    width:310px;
+    width:50%;
     padding: 0 20px;
 }
 .st1-sub-text-1 p{
@@ -1027,11 +1027,11 @@ footer{
 .outteammain{
     display: flex;
     width:100% ;
-    gap:40px ;
+    gap:20px ;
+    flex-wrap: wrap;
 }
 .otmembers{
-    width:260px ;
-    height:500px ;
+    width: 23%;
     padding-top: 20px;
 }
 .otmembers img{
@@ -1061,18 +1061,18 @@ footer{
 .whyussection{
     width: 100%;
     display: flex;
-    padding-bottom: 50px;
+    flex-wrap: wrap;
+    gap: 80px;
 }
 .wsimg{
-    width: 50%;
+    width: 45%;
 }
 .wsimg img{
     width:100%;
     border-radius: 5px;
 }
 .wstextarea{
-    margin-left: 110px;
-    width: 50%;
+    width: 45%;
 }
 .wstextarea h2 {
     font-size: 32px;
@@ -1093,6 +1093,12 @@ footer{
     flex-wrap: wrap;
     align-items: center;
 }
+.icon-li{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    
+}
 .wstextarea ul li{
     list-style: none;
     color:rgba(0, 0, 0, 0.8) ;
@@ -1107,11 +1113,10 @@ footer{
 }
 .wstta1{
     margin-left: 0;
-    width:40% ;
+    width:45% ;
 }
 .wsimg1{
-    margin-left: 100px;
-    width: 48%;
+    width: 45%;
 }
 .whyussection1{
     padding-top: 100px;
@@ -1511,5 +1516,19 @@ footer{
     }
     #page-1 .card1{
         width: 45%;
+    }
+    .otmembers{
+        width:100% ;
+    }
+    .wstextarea{
+        width: 100%;
+    
+    }
+    .wsimg{
+        width: 100%;
+    }
+    .wsimg1{
+        margin-left: 0;
+        padding-right: 30px;
     }
 }
