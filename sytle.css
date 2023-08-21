@@ -1059,7 +1059,7 @@ footer{
     padding:50px 0 ;
 }
 .whyussection{
-    width: 100%;
+    width:90%;
     display: flex;
     flex-wrap: wrap;
     gap: 80px;
@@ -1529,6 +1529,5 @@ footer{
     }
     .wsimg1{
         margin-left: 0;
-        padding-right: 30px;
     }
 }
