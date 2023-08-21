@@ -192,15 +192,19 @@ header::before{
     justify-content: space-between;
     gap: 30px;
     flex-wrap: wrap;
+    padding-left: 14px;
+    
 }
 .same1{
     padding:13px 20px ;
-    width:250px ;
     border-radius: 5px;
     border: none;
     outline: none;
     font-size: 17px;
     font-weight: 400;
+}
+.select5{
+   padding-right: 60px;
 }
 .button2{
     padding: 13px 50px;
@@ -307,6 +311,7 @@ header::before{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     
 }
 .cardtitle h4{
@@ -894,19 +899,20 @@ footer{
     width: 48%;
 }
 #page-1 .cardarea1 {
-    width: 70%;
+    width: 65%;
     padding-left: 0;
 }
 .page-with-sidebar {
     display: flex;
-    gap: 50px;
+    gap: 30px;
     padding-bottom: 100px;
+    flex-wrap: wrap;
 }
 .tranding-today{
     padding-top: 80px;
 }
 .side-bar {
-    width: 30%;
+    width: 26%;
     margin-left: 20px;
 }
 .side-bar h2{
@@ -1481,5 +1487,8 @@ footer{
     }
     .blogbutton {
         margin-left: 30%;
+    }
+    #page-1 .cardarea1{
+        width: 100%;
     }
 }
