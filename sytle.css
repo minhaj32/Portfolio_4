@@ -51,7 +51,6 @@ header::before{
     border-radius: 5px;
 }
 .logo h1{
-    font-weight: 6700;
     font-size: 20px;
     text-transform: uppercase;
     margin-left: 30px;
@@ -99,7 +98,7 @@ header::before{
 .hover-1 ul{
     display: flex;
     flex-direction: column;
-    background-color: #ffffff !important;
+    background-color: #ffffff;
     position: absolute;
     top: 50px;
     width:200px ;
@@ -192,8 +191,6 @@ header::before{
     justify-content: space-between;
     gap: 30px;
     flex-wrap: wrap;
-    padding-left: 14px;
-    
 }
 .same1{
     padding:13px 20px ;
@@ -208,7 +205,6 @@ header::before{
 }
 .button2{
     padding: 13px 50px;
-    margin-left: 10px;
     cursor: pointer;
     background-color: #30e3ca;
     border-radius: 5px;
@@ -527,7 +523,7 @@ header::before{
     display: flex;
     background-color: #FFFFFF;
     border-radius:7px;
-    
+    flex-wrap: wrap;
 }
 .section3 .section-title-describe h2 {
     margin-bottom: 5px;
@@ -537,7 +533,7 @@ header::before{
     margin: 0;
 }
 .trendingimg{
-    width:50% ;
+    width:100% ;
 }
 .trendingimg img{
     width: 100%;
@@ -552,11 +548,12 @@ header::before{
     font-size: 14px;
     background-color: #E9ECEF;
 }
-.trendingmanagment{
-    width: 50%;
+.trendingmanagment {
+    width: 100%;
     display: flex;
     padding: 30px;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 .trendingtextarea h4 a{
     padding: 0;
@@ -1490,5 +1487,16 @@ footer{
     }
     #page-1 .cardarea1{
         width: 100%;
+    }
+    .testtextarea p{
+        font-size:20px ;
+    }
+    .hover-1 ul{
+        right: -16px;
+        background-color: #d1d2d3;
+        z-index: 9;
+    }
+    .trendingimg img{
+        border-radius: 7px;
     }
 }
