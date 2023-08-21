@@ -1398,7 +1398,7 @@ footer{
 }
 .loginpage{
     background-color: #F8F9FA;
-    padding: 50px 0;
+    padding: 50px 30px;
 }
 .loginform{
     width:50% ;
@@ -1546,5 +1546,9 @@ footer{
     .ct-frequentlyheading h2::before{
         top: 95px;
         left: 130px;
+    }
+    .loginform{
+        width: 90%;
+        padding:30px;
     }
 }
