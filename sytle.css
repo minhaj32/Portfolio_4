@@ -1148,7 +1148,7 @@ footer{
     width: 20%;
     display: flex;
     flex-direction: column;
-    margin-left: 70px;
+    
 }
 .blog-st1-search-area h4{
     font-size: 25px;
@@ -1159,7 +1159,8 @@ footer{
 
 .blog-st1-flex{
     display: flex;
-    
+    flex-wrap: wrap;
+    gap:50px ;
 }
 .blog-searchbox {
     padding-bottom: 40px;
@@ -1530,4 +1531,11 @@ footer{
     .wsimg1{
         margin-left: 0;
     }
+    .sellingmain{
+        width: 100%;
+    }
+    .blog-st1-search-area{
+        width: 100%;
+    }
+    
 }
