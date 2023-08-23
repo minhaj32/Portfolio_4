@@ -11,7 +11,7 @@ header {
     background-image: url(./img/bg1.jpg.webp);
     height:  auto;
     background-repeat: no-repeat;
-    background-position: 50% -25px;
+    background-size: cover;
     position: relative;
     z-index: 1;
     padding-bottom: 250px;
@@ -410,26 +410,24 @@ header::before{
     margin: 0;
 }
 .productimg img{
-    width: 100%;
-    height: 100%;
+    max-width:100% ;
     transition: 0.3s;
     border-radius: 10px;
 }
 .productimg{
-    width: 350px;
-    height: 300px;
+    width: 100%;
     overflow: hidden;
     
 }
 .productlist{
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 25px;
     padding-top: 50px;
 }
 .product1{
     position: relative;
-    
+    width: 350px;
 }
 .product1:hover img{
     transform: scale(1.05);
@@ -450,6 +448,9 @@ header::before{
     bottom: 10px;
     z-index:2 ;
     
+}
+.product-5{
+    width:537px;
 }
 .producttextarea{
     padding-left: 20px;
@@ -494,8 +495,7 @@ header::before{
     flex-direction: column;
 }
 .productimg2{
-    width: 540px;
-    height: 460px;
+    width: 100%;
     overflow: hidden;
     border-radius: 10px;
 }
@@ -519,7 +519,7 @@ header::before{
     gap: 30px;
 }
 .trending1{
-    width: 48%;
+    width: 31%;
     display: flex;
     background-color: #FFFFFF;
     border-radius:7px;
@@ -1459,11 +1459,70 @@ footer{
 #page-6 .loginpage{
     padding: 100px 30px;
 }
+/* Laptop Responsive Start */
+
+@media (max-width:1145px){
+    .contener{
+        width:100% ;
+    }
+    .textarea1 h1{
+        font-size: 40px;
+    }
+    .card1{
+        width: 47%;
+    }
+    .service1{
+        width: 30%;
+    }
+    .product1{
+        width: 31%;
+    }
+    .product-5{
+        width: 48%;
+    }
+    .trending1{
+       width:47% ;
+    }
+    .blogs1{
+        width: 48%;
+        margin: 0 auto;
+    }
+    #page-1 .cardarea1{
+        width: 100%;
+    }
+    #page-1 .card1{
+        width: 48%;
+    }
+    .otmembers{
+        width: 48%;
+    }
+    .sellingmain{
+        width: 100%;
+    }
+    .ct-fa-name1{
+        width: 47%;
+    }
+    .contact-form-area{
+        width: 100%;
+    }
+    .contact-address-area{
+        width: 100%;
+    }
+}
+
+
+/* Laptop Responsive END */
 
 /* Mobail Responsive */
 
 @media (max-width:768px){
     .contener{
+        width: 100%;
+    }
+    .product1{
+        width: 100%;
+    }
+    .product-5{
         width: 100%;
     }
     .textarea1 h1 {
@@ -1516,7 +1575,7 @@ footer{
         
     }
     #page-1 .card1{
-        width: 45%;
+        width: 47%;
     }
     .otmembers{
         width:100% ;
@@ -1552,3 +1611,5 @@ footer{
         padding:30px;
     }
 }
+
+/* Mobail Responvie */
