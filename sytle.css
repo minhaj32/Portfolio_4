@@ -1649,6 +1649,19 @@ footer{
     .service1{
         width: 100%;
     }
+    #page-2 header{
+        height: 25vh;
+    }
+    #page-1 .textarea1{
+        padding-top: 0;
+    }
+    #page-1 header , #page-3 header , #page-4 header ,#page-5 header , #page-6 header{
+        height: 25vh;
+    }
+    .herosection{
+        padding-top: 100px;
+    }
+   
 }
 
 /* Mobail Responvie END*/
