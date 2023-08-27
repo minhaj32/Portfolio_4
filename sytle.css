@@ -634,7 +634,6 @@ header::before{
     font-size: 25px;
     font-weight: 400;
     color: rgba(0, 0, 0, 0.6);
-    padding: 0 139px;
     text-align: center;
     margin-top: 40px;
     
@@ -1611,11 +1610,8 @@ footer{
         width:100% ;
         margin: 0 auto;
     }
-    .frscheckbox p{
-        
-    }
     #page-1 .card1{
-        width: 47%;
+        width: 100%;
     }
     .otmembers{
         width:100% ;
