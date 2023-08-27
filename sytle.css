@@ -246,7 +246,7 @@ header::before{
     border-radius: 7px;
     position: relative;
     top: -50px;
-    z-index: 9;
+    z-index: 2;
     flex-wrap: wrap;
 }
 
@@ -1645,6 +1645,9 @@ footer{
     .loginform{
         width: 90%;
         padding:30px;
+    }
+    .service1{
+        width: 100%;
     }
 }
 
