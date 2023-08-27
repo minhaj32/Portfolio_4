@@ -1541,7 +1541,7 @@ footer{
 
     .dropdronmenu{
         position: fixed;
-        width:92vw ;
+        width:91% ;
         height: 20vh;
         background-color: #FFF;
         top: -200%;
@@ -1555,9 +1555,6 @@ footer{
         flex-direction: column;
         justify-content: space-around;
         padding-bottom: 20px;
-    }
-    .navbermain{
-        
     }
     #check:checked ~ .dropdronmenu{
         top: 98px;
