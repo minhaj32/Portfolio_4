@@ -49,6 +49,7 @@ header::before{
     background-color: #fff;
     padding: 12px 0;
     border-radius: 5px;
+    
 }
 .logo h1{
     font-size: 20px;
@@ -57,6 +58,14 @@ header::before{
 }
 .logo span{
     color: #30E3CA;
+}
+
+#check{
+    display: none;
+}
+.checkbtn{
+    font-size: 35px;
+    display: none;
 }
 .navber {
     display: flex;
@@ -80,6 +89,10 @@ header::before{
 }
 .navber li a:hover{
     color: #30E3CA;
+}
+.dropdronmenu{
+    display: flex;
+    align-items: center;
 }
 .dropdown{
     position: relative;
@@ -1459,6 +1472,8 @@ footer{
 #page-6 .loginpage{
     padding: 100px 30px;
 }
+
+
 /* Laptop Responsive Start */
 
 @media (max-width:1145px){
@@ -1513,11 +1528,39 @@ footer{
 
 /* Laptop Responsive END */
 
-/* Mobail Responsive */
+/* Mobail Responsive Start */
 
 @media (max-width:768px){
     .contener{
         width: 100%;
+    }
+    .checkbtn{
+        display: block;
+        padding-right: 30px;
+    }
+
+    .dropdronmenu{
+        position: fixed;
+        width:92vw ;
+        height: 20vh;
+        background-color: #FFF;
+        top: -200%;
+        left: 30px;
+        transition: all 0.5s;
+        box-shadow: 2px 43px 74px -11px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 2px 43px 74px -11px rgba(0,0,0,0.75);
+        -moz-box-shadow: 2px 43px 74px -11px rgba(0,0,0,0.75);
+        border-radius:0 0 8px 8px ;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-bottom: 20px;
+    }
+    .navbermain{
+        
+    }
+    #check:checked ~ .dropdronmenu{
+        top: 98px;
     }
     .product1{
         width: 100%;
@@ -1612,4 +1655,4 @@ footer{
     }
 }
 
-/* Mobail Responvie */
+/* Mobail Responvie END*/
