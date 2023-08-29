@@ -801,7 +801,7 @@ footer{
     bottom: 40px;
 }
 .frabout{
-    width: 380px;
+    width: 30%;
 }
 .frabout h3{
     color: #fff;
@@ -815,7 +815,10 @@ footer{
     line-height: 25px;
 }
 .frnavigation{
-    width: 200px;
+    width: 15%;
+}
+.frsocailicons{
+    width: 20%;
 }
 .frnavigation h3{
     color: #fff;
@@ -857,6 +860,7 @@ footer{
 .frinputarea{
     display: flex;
     align-items: center;
+    
 }
 .frinputarea input{
     padding: 10px 15px;
@@ -1571,7 +1575,7 @@ footer{
         font-size: 18px;
     }
     .card1{
-        width: 90%;
+        width: 100%;
     }
     .productimg2{
         width: 100%;
@@ -1661,7 +1665,28 @@ footer{
     .herosection{
         padding-top: 100px;
     }
-   
+    .cardareatitle h2{
+        text-align: center;
+    }
+    .subscribearea{
+        display: flex;
+        
+    }
+    .footercontent{
+        justify-content: center;
+    }
+    .frnavigation{
+        width: 100%;
+    }
+    .frsocailicons{
+        width: 100%;
+    }
+    .frinputarea{
+        width: 100%;
+    }
+    .frcopyright{
+        padding-bottom: 50px;
+    }
 }
 
 /* Mobail Responvie END*/
