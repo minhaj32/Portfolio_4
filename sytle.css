@@ -888,7 +888,7 @@ footer{
 }
 .frcopyright{
     text-align: center;
-    padding-bottom: 100px;
+    padding-bottom: 35px;
 }
 .frcopyright p{
     color:rgba(255, 253, 253, 0.3) ;
@@ -1432,7 +1432,7 @@ footer{
     padding: 10px 0;
     margin-top: 10px;
     margin-bottom: 20px;
-    width: 100%;
+    width: 90%;
     border: 1px solid rgba(0, 0, 0, 0.2);
     outline: none;
     padding-left: 10px;
@@ -1541,14 +1541,13 @@ footer{
         display: block;
         padding-right: 30px;
     }
-
     .dropdronmenu{
         position: fixed;
-        width:91% ;
-        height: 20vh;
+        width:50% ;
+        height: 60vh;
         background-color: #FFF;
-        top: -200%;
-        left: 30px;
+        left:-200% ;
+        top: 98px;
         transition: all 0.5s;
         box-shadow: 2px 43px 74px -11px rgba(0,0,0,0.75);
         -webkit-box-shadow: 2px 43px 74px -11px rgba(0,0,0,0.75);
@@ -1558,9 +1557,22 @@ footer{
         flex-direction: column;
         justify-content: space-around;
         padding-bottom: 20px;
+        align-items: normal;
     }
     #check:checked ~ .dropdronmenu{
-        top: 98px;
+        left:30px ;
+    }
+    .navber ul{
+        flex-direction: column;
+    }
+    .navber ul li{
+        padding: 10px 15px;
+    }
+    .navber ul li a{
+        font-size: 20px;
+    }
+    .ct-fa-name input{
+        width: 95%;
     }
     .product1{
         width: 100%;
@@ -1672,6 +1684,9 @@ footer{
         display: flex;
         
     }
+    .loginform input{
+        width: 95%;
+    }
     .footercontent{
         justify-content: center;
     }
@@ -1684,9 +1699,7 @@ footer{
     .frinputarea{
         width: 100%;
     }
-    .frcopyright{
-        padding-bottom: 50px;
-    }
+
 }
 
 /* Mobail Responvie END*/
